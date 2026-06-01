@@ -1,0 +1,6 @@
+{
+  "name": "Tamim Tazim Music",
+  "description": "A standalone, highly polished web-based local music player with premium obsidian dark glass aesthetics and customized media controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

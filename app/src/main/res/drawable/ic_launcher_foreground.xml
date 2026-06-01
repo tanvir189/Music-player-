@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer concentric pulsing soundwave paths -->
+    <path
+        android:strokeColor="#312e81"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M34,84 C44,94 64,94 74,84" />
+    <path
+        android:strokeColor="#4338ca"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round"
+        android:pathData="M28,80 C41,93 67,93 80,80" />
+
+    <!-- Solid modern double-musical note structure -->
+    <path
+        android:pathData="M38,72 C31.37,72 26,66.63 26,60 C26,53.37 31.37,48 38,48 C44.63,48 50,53.37 50,60 L50,22 L86,22 L86,34 L58,34 L58,72 C58,78.63 52.63,84 46,84 C39.37,84 34,78.63 34,72 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="26"
+                android:startY="22"
+                android:endX="86"
+                android:endY="84"
+                android:type="linear">
+                <item android:offset="0" android:color="#6366f1" />
+                <item android:offset="1" android:color="#8b5cf6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
